@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADAS 1-8[/COLOR] [COLOR lime][720 HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/77/ff/10/77ff10790c696299759519a3429213eb.jpg</thumbnail>
+<fanart>http://www.chicadelatele.com/wp-content/uploads/2012/05/HOUSE-TV-Series-Season-8-Finale-Episode-Poster-e1335199793877.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/house-720x404-castellanoel-rockero-50272/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/77/ff/10/77ff10790c696299759519a3429213eb.jpg</thumbnail>
+<fanart>http://www.chicadelatele.com/wp-content/uploads/2012/05/HOUSE-TV-Series-Season-8-Finale-Episode-Poster-e1335199793877.jpg</fanart>
+</item>

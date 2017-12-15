@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR blue][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/lost_tv_series-399964179-large.jpg</thumbnail>
+<fanart>http://sm.ign.com/t/ign_es/feature/d/diez-anos-de-perdidos-la-serie-que-nos-engancho/diez-anos-de-perdidos-la-serie-que-nos-engancho_g3gq.640.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/lost-perdidos-castellano-el-rockero-43597/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/lost_tv_series-399964179-large.jpg</thumbnail>
+<fanart>http://sm.ign.com/t/ign_es/feature/d/diez-anos-de-perdidos-la-serie-que-nos-engancho/diez-anos-de-perdidos-la-serie-que-nos-engancho_g3gq.640.jpg</fanart>
+</item>

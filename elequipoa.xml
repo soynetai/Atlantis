@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TODAS LAS TEMPORADAS 1 - 5[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/el-equipo-a-20392/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-equipo-a-t1-47194</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-equipo-a-t2-47195</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-equipo-a-t3-47196</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 4[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-equipo-a-t4-47197</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 5[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-equipo-a-t5-47198</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/716IX0CoqTL._SL1262_.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/El_equipo_A_Serie_de_TV-702792705-large.jpg</fanart>
+</item>

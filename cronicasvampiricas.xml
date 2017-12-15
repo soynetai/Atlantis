@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>[B]|TEMPORADA 1|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/cronicas-t1-41416/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+</item>
+<item>
+<title>[B]|TEMPORADA 2|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t2-41600/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+</item>
+<item>
+<title>[B]|TEMPORADA 3|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t3-41601/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+</item>
+<item>
+<title>[B]|TEMPORADA 4|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t4-41832/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+</item>
+<item>
+<title>[B]|TEMPORADA 5|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t5-41833/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+</item>
+<item>
+<title>[B]|TEMPORADAS 6|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t6-41834/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.posters.cz/image/1300/21244.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-hcV16Lh0Vkk/WTvQaStEQ-I/AAAAAAAABcw/8xCD4bbP6rYXJ8IZA2r_YteDJEEBSe95gCEw/s1600/imagen%2Bpromocional%2Bcronicas%2Bvampiricas.jpg</fanart>
+</item>

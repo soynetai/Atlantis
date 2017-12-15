@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/tyrant_tv_series-544662380-large.jpg</thumbnail>
+<fanart>http://static.vix.com/es/sites/default/files/btg/series.batanga.com/files/tyrant-todo-lo-que-necesitas-saber-sobre-la-nueva-serie-1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/tyrant-t1-49761</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/tyrant_tv_series-544662380-large.jpg</thumbnail>
+<fanart>http://static.vix.com/es/sites/default/files/btg/series.batanga.com/files/tyrant-todo-lo-que-necesitas-saber-sobre-la-nueva-serie-1.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/tyrant_tv_series-544662380-large.jpg</thumbnail>
+<fanart>http://static.vix.com/es/sites/default/files/btg/series.batanga.com/files/tyrant-todo-lo-que-necesitas-saber-sobre-la-nueva-serie-1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/tyrant-t2-49762</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/tyrant_tv_series-544662380-large.jpg</thumbnail>
+<fanart>http://static.vix.com/es/sites/default/files/btg/series.batanga.com/files/tyrant-todo-lo-que-necesitas-saber-sobre-la-nueva-serie-1.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/tyrant_tv_series-544662380-large.jpg</thumbnail>
+<fanart>http://static.vix.com/es/sites/default/files/btg/series.batanga.com/files/tyrant-todo-lo-que-necesitas-saber-sobre-la-nueva-serie-1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/tyrant-t3-39892</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/tyrant_tv_series-544662380-large.jpg</thumbnail>
+<fanart>http://static.vix.com/es/sites/default/files/btg/series.batanga.com/files/tyrant-todo-lo-que-necesitas-saber-sobre-la-nueva-serie-1.jpg</fanart>
+</item>

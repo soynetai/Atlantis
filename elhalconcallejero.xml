@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]Mini Serie (13 Episodios)[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://www.dvdantigo.com/imagem/index/7521868/G/81stkn7nkql._sl1500_.jpg</thumbnail>
+<fanart>https://i.blogs.es/fc305b/halcon_callejero_00/original.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/el-halcon-callejero-t-u-47213</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.dvdantigo.com/imagem/index/7521868/G/81stkn7nkql._sl1500_.jpg</thumbnail>
+<fanart>https://i.blogs.es/fc305b/halcon_callejero_00/original.jpg</fanart>
+</item>

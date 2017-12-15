@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/iron_fist_tv_series-812373264-large.jpg</thumbnail>
+<fanart>https://i0.wp.com/seriesonday.com/wp-content/uploads/2017/02/16422471_1871094219768680_3130474710760339429_o.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/iron-fist-el-rockero-63074</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://i0.wp.com/seriesonday.com/wp-content/uploads/2017/02/16422471_1871094219768680_3130474710760339429_o.png</fanart>
+<thumbnail>https://pics.filmaffinity.com/iron_fist_tv_series-812373264-large.jpg</thumbnail>
+</item>
+<item>
+<title>[B]TEMPORADA 1 (SD)[/B] </title>
+<link>ignorame</link>
+<externallink>https://pastebin.com/raw/Cg1AWvEL</externallink>
+<fanart>https://i0.wp.com/seriesonday.com/wp-content/uploads/2017/02/16422471_1871094219768680_3130474710760339429_o.png</fanart>
+<thumbnail>https://pics.filmaffinity.com/iron_fist_tv_series-812373264-large.jpg</thumbnail>
+</item>

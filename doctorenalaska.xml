@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR green][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/doctor-en-alaska-t1-47327</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR green][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/doctor-en-alaska-t2-47328</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR green][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/doctor-en-alaska-t3-47329</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 4[/COLOR] [COLOR green][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/doctor-en-alaska-t4-47330</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 5[/COLOR] [COLOR green][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/doctor-en-alaska-t5-47332</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 6[/COLOR] [COLOR green][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/doctor-en-alaska-t6-47333</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dreamers.com/indices/imagenes/series.767.IMAGEN1.jpg</thumbnail>
+<fanart>https://www.biography.com/.image/t_share/MTMxNDMwMjM2Nzc5NzU5NjI2/northern_exposure_cast_cbs_photofest_homepage_promojpg.jpg</fanart>
+</item>

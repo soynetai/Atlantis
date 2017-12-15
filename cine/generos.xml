@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+<item>
+<title>[B][COLOR gold]ACCION[/COLOR][/B]</title>
+<fanart>https://www.ymedia.es/images/especiales/187/18-censo-de-salas-de-cine.jpg</fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/accion.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/accion.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR gold]ANIMACION[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/animacion.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/animacion.xml</externallink>
+</item>
+<item>
+<title>[B][COLOR gold]AVENTURAS[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/aventuras.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/aventuras.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]BELICO[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://image.slidesharecdn.com/el-cine-blico-1234173818160507-2/95/el-cine-blico-1-728.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/belico.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]CIENCIA FICCION[/COLOR][/B]</title>
+<thumbnail>https://image.slidesharecdn.com/gnerocienciaficcin-150415013957-conversion-gate01/95/gnero-ciencia-ficcin-1-638.jpg</thumbnail>                      
+<fanart></fanart>
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/ficcion.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]COMEDIA[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/comedia.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/comedia.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]DRAMA[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/drama.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/drama.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]FANTASTICO[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>http://3.bp.blogspot.com/-gInV2d5wyCs/U0teQF-Q0sI/AAAAAAAAKOs/8Lt1hMSRU1E/s1600/Genero+fant%25C3%25A1stico.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/fantastico.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]INFANTIL[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/infantiles.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/infantil.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]SUSPENSE[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/suspense.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/suspense.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]TERROR[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://image.slidesharecdn.com/cinedeterror-121103173125-phpapp02/95/cine-de-terror-1-638.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/terror.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]THRILLER[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://image.slidesharecdn.com/generoscinematograficos-130304095724-phpapp01/95/generos-cinematograficos-25-638.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/thriller.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]ROMANTICO[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://addons.000webhostapp.com/imagenes/romantica.png</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/romantico.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR gold]INTRIGA[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>http://2.bp.blogspot.com/-sIAX1K97gkE/T4HLSr6DkaI/AAAAAAAABPw/IIELw-ouuBI/s1600/detective.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/cine/intriga.xml</externallink>
+</item>
+</items>

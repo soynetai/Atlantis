@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+<!-- 0 - 9 -->
+
+<!-- A -->
+
+<!-- B -->
+
+<item>
+<title>[B][COLOR orange]Ballerina[/COLOR][/B]  - Castellano - [COLOR yellow]Valoración: 8/10  [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://mediafiles.cineplex.com/Central/Film/Posters/27552_320_470.jpg</thumbnail>  
+<fanart>https://cdnb.20m.es/sites/55/2017/01/ballerina-characters-620x307.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/ballerina-2017-81434</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://mediafiles.cineplex.com/Central/Film/Posters/27552_320_470.jpg</thumbnail>  
+<fanart>https://cdnb.20m.es/sites/55/2017/01/ballerina-characters-620x307.png</fanart>
+</item>
+<item>
+<title>[COLOR orange][B]BICHOS[/B][/COLOR] 1998 [COLOR yellow] Valoración: 8/10[/COLOR][sd]</title>
+<link>http://streamcloud.eu/83q5mta15awe/Bichos.720.bdrip.cast.mp4.html</link>
+<thumbnail>http://gnula.nu/wp-content/uploads/2016/01/A_Bugs_Life_poster_espa%C3%B1ol.jpg</thumbnail>
+<fanart>http://gnula.nu/wp-content/uploads/2016/01/A_Bugs_Life_poster_espa%C3%B1ol.jpg</fanart>
+</item>
+
+
+<!-- C -->
+<item>
+<title>[B][COLOR orange]Canta![/COLOR][/B]  - Castellano - [COLOR yellow]Valoración: 8/10  [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://www.lahiguera.net/cinemania/pelicula/7437/canta-cartel-7116.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/cKdMwDyMPSQ/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/canta-81435</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.lahiguera.net/cinemania/pelicula/7437/canta-cartel-7116.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/cKdMwDyMPSQ/maxresdefault.jpg</fanart>
+</item>
+
+
+<!-- D -->
+
+<!-- E -->
+
+<!-- F -->
+
+<!-- G -->
+<item>
+<title>[COLOR orange][B]Gru mi villano favorito 3[/B][/COLOR] 2017 [COLOR yellow] Valoración: 7/10[/COLOR][sd]</title>
+<link>http://streamcloud.eu/4hjn786l3gv6/d1sp1c4bl3.m3.3.2017.tchq.castellano.mp4.html</link>
+<thumbnail>http://circuiturgellenc.com/bku9/media/k2/items/cache/91c14cbfa735c2522cedce0eda8810b9_XL.jpg</thumbnail>
+<fanart>http://circuiturgellenc.com/bku9/media/k2/items/cache/91c14cbfa735c2522cedce0eda8810b9_XL.jpg</fanart>
+</item>
+
+<!-- H -->
+
+<!-- I -->
+
+<!-- J -->
+
+<!-- K -->
+
+<!-- L -->
+<item>
+<title>[COLOR orange][B]Las aventuras de Tintín: El secreto del unicornio  [/B][/COLOR] 2011 [COLOR yellow] Valoración: 6,7/10[/COLOR][sd]</title>
+<link>http://streamcloud.eu/x00xdxiv0s3a/Tintin.720.bdrip.cast.mp4.html</link>
+<thumbnail>https://pics.filmaffinity.com/the_adventures_of_tintin_secret_of_the_unicorn-152754707-large.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/the_adventures_of_tintin_secret_of_the_unicorn-152754707-large.jpg</fanart>
+</item>
+<item>
+<title>[COLOR orange][B]Lego - la gran aventura lego[/B][/COLOR] 2014[COLOR yellow] Valoración: 6/10[/COLOR][sd]</title>
+<link>http://streamcloud.eu/zwhettoaqpgg/The.lego.movie.2014.720.hdrip.cast.mp4.html</link>
+<thumbnail>http://www.pelisonic.com/wp-content/uploads/2016/01/z-227-227x300.jpg</thumbnail>
+<fanart>http://www.pelisonic.com/wp-content/uploads/2016/01/z-227-227x300.jpg</fanart>
+</item>
+
+<!-- M -->
+
+
+<!-- N -->
+
+<!-- Ñ -->
+
+<!-- O -->
+
+<!-- P -->
+
+<!-- Q -->
+
+<!-- R -->
+
+<!-- S -->
+
+<!-- T -->
+
+<!-- U -->
+
+<!-- V -->
+
+<!-- W -->
+
+<!-- X -->
+
+<!-- Y -->
+
+<!-- Z -->
+
+</items>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B]GIRLS - TEMPORADA 1 ||[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/girls1.xml</externallink>
+<thumbnail>https://pixel.nymag.com/imgs/daily/vulture/2017/04/11/girls-posters/11-girls-posters-001.nocrop.w710.h2147483647.jpg</thumbnail>
+<fanart>http://images.prensa.com/entretenimiento/experiencia-deLena-Dunham-creadora-protagonista_LPRIMA20160106_0168_32.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 2 - [/COLOR][COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pixel.nymag.com/imgs/daily/vulture/2017/04/11/girls-posters/11-girls-posters-001.nocrop.w710.h2147483647.jpg</thumbnail>
+<fanart>http://images.prensa.com/entretenimiento/experiencia-deLena-Dunham-creadora-protagonista_LPRIMA20160106_0168_32.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/girls-2-temporada-78828</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pixel.nymag.com/imgs/daily/vulture/2017/04/11/girls-posters/11-girls-posters-001.nocrop.w710.h2147483647.jpg</thumbnail>
+<fanart>http://images.prensa.com/entretenimiento/experiencia-deLena-Dunham-creadora-protagonista_LPRIMA20160106_0168_32.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3 - [/COLOR][COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pixel.nymag.com/imgs/daily/vulture/2017/04/11/girls-posters/11-girls-posters-001.nocrop.w710.h2147483647.jpg</thumbnail>
+<fanart>http://images.prensa.com/entretenimiento/experiencia-deLena-Dunham-creadora-protagonista_LPRIMA20160106_0168_32.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/girls-3-temporada-79204</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pixel.nymag.com/imgs/daily/vulture/2017/04/11/girls-posters/11-girls-posters-001.nocrop.w710.h2147483647.jpg</thumbnail>
+<fanart>http://images.prensa.com/entretenimiento/experiencia-deLena-Dunham-creadora-protagonista_LPRIMA20160106_0168_32.jpg</fanart>
+</item>

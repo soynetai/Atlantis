@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://4.bp.blogspot.com/-q7OZeam8UAk/U5OvoUVXZhI/AAAAAAAAKDk/XJ4oFsnhgeU/s1600/h1-seriesytv.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/serie-h2o-sirenas-del-mar-D_NQ_NP_295511-MEC20592401322_022016-F.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/h2o-t1-castellano-45252</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-q7OZeam8UAk/U5OvoUVXZhI/AAAAAAAAKDk/XJ4oFsnhgeU/s1600/h1-seriesytv.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/serie-h2o-sirenas-del-mar-D_NQ_NP_295511-MEC20592401322_022016-F.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://4.bp.blogspot.com/-q7OZeam8UAk/U5OvoUVXZhI/AAAAAAAAKDk/XJ4oFsnhgeU/s1600/h1-seriesytv.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/serie-h2o-sirenas-del-mar-D_NQ_NP_295511-MEC20592401322_022016-F.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/h2o-t2-castellano-45488</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-q7OZeam8UAk/U5OvoUVXZhI/AAAAAAAAKDk/XJ4oFsnhgeU/s1600/h1-seriesytv.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/serie-h2o-sirenas-del-mar-D_NQ_NP_295511-MEC20592401322_022016-F.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://4.bp.blogspot.com/-q7OZeam8UAk/U5OvoUVXZhI/AAAAAAAAKDk/XJ4oFsnhgeU/s1600/h1-seriesytv.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/serie-h2o-sirenas-del-mar-D_NQ_NP_295511-MEC20592401322_022016-F.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/h2o-t3-castellano-45517</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-q7OZeam8UAk/U5OvoUVXZhI/AAAAAAAAKDk/XJ4oFsnhgeU/s1600/h1-seriesytv.jpg</thumbnail>
+<fanart>https://http2.mlstatic.com/serie-h2o-sirenas-del-mar-D_NQ_NP_295511-MEC20592401322_022016-F.jpg</fanart>
+</item>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t1-castellano-51504</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t2-castellano-51513</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t3-castellano-51978</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 4[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t4-castellano-51997</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 5[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t5-castellano-52008</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 6[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t6-castellano-52074</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 7[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/el-internado-t7-castellano-52279</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl8.casadellibro.com/m/ig/8/2527348.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2010/05/08/13B530A3-0515-4CD7-A668-092CF8016C1F/58.jpg</fanart>
+</item>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1 - 3[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61S4XV0EZ6L._AC_UL320_SR224,320_.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-ckZ8p7WLBow/Ul1VBhlvzxI/AAAAAAAABmk/1gtlJFso4Gc/s1600/greatest_american_hero.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/el-gran-heroe-americano-21546/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61S4XV0EZ6L._AC_UL320_SR224,320_.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-ckZ8p7WLBow/Ul1VBhlvzxI/AAAAAAAABmk/1gtlJFso4Gc/s1600/greatest_american_hero.jpg</fanart>
+</item>

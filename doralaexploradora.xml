@@ -1,0 +1,186 @@
+		<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]T1[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t1-castellano-44536</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]T2[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-explroradora-t2-castellano-44627</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]T3[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t3-castellano-44721</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]T4[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t4-castellano-44766</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]T5[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/dora-la-exploradora-t5-castellano-44774</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+	<thumbnail>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</thumbnail>
+		<fanart>https://ae01.alicdn.com/kf/HTB136GXNVXXXXXkaXXXq6xXFXXXj/Trends-International-RP13157-Dora-The-font-b-Explorer-b-font-Poster-Print-Size-30x45cm-C344.jpg</fanart>
+</item>

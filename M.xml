@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<item>
+<title>[B]MACGYVER 2016[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/mcgyver2016.xml</externallink>
+<thumbnail>http://es.web.img2.acsta.net/pictures/16/08/18/14/50/321894.jpg</thumbnail>
+<fanart>http://www.culturaencadena.com/images/stories/contenidocrisis/mac.jpg</fanart>
+</item>
+<item>
+<title>[B]MACGYVER[/B]</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.formulatv.com/images/series/posters/1200/1272/1_m3.jpg</thumbnail>
+        <fanart>http://www.name-list.net/img/portrait/Magayver_1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/macgyver-32331/list,1,6</page> 
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.formulatv.com/images/series/posters/1200/1272/1_m3.jpg</thumbnail> <!-- aqui va la portada -->
+<fanart>http://www.name-list.net/img/portrait/Magayver_1.jpg</fanart> <!-- aqui va el fondo -->
+</item>
+<item>
+<title>[B]MADAM SECRETARY[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/madamsecretary.xml</externallink>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/e6/b7/3f/e6b73faf5267e95ea3244d384eb74f72.jpg</thumbnail>
+<fanart>http://theislandreader.com/wp-content/uploads/2014/08/Madam-Secretary.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MASTER OF SEX[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/masterofsex.xml</externallink>
+<thumbnail>http://georgekelley.org/wp-content/uploads/2013/12/masters-of-sex.jpg</thumbnail>
+<fanart>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2013/09/1233503_10151644118606149_422745443_n.png</fanart>
+</item>
+
+<item>
+<title>[B]MALCOM IN THE MIDDLE[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/malcominthemiddle.xml</externallink>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/81LBaYpnsYL._SL1500_.jpg</thumbnail>
+<fanart>http://www.proyectorfantasma.com.ar/wp-content/uploads/2016/12/malcolm-middle.jpeg</fanart>
+</item>
+
+<item>
+<title>[B]MATADOR[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/matador.xml</externallink>
+<thumbnail>http://www.canalrgz.com/ci/assets/img/carteles/series/matador.jpg</thumbnail>
+<fanart>http://tvseriesfinale.com/wp-content/uploads/2014/07/matador04.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B]MELROSE PLACE[/B]</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/87/8b/d5/878bd54b377d7e6fe5ca9c63100de5e6.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/gfMSUpl129A/maxresdefault.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/melrose-place-temporadas-1234567-completa-11635/list,1,10</page> 
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/</referer> 
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/87/8b/d5/878bd54b377d7e6fe5ca9c63100de5e6.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/gfMSUpl129A/maxresdefault.jpg</fanart>
+</item>
+<item>
+<title>[B]MENTES CRIMINALES[/B]</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://series24online.com/img/series/mentes-criminales.jpg</thumbnail>
+        <fanart>http://www.todocvcd.com/imagenes/series/carteles/40.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/mentes-criminales-temporadas-123456789-12258/list,1,8</page> 
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/</referer> <!-- cambial este link por el de la pagina donde estan las peliculas o series si son varias paginas ir hasta el final y copiar el link completeo termina con list, 1,x --->
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>http://series24online.com/img/series/mentes-criminales.jpg</thumbnail>
+        <fanart>http://www.todocvcd.com/imagenes/series/carteles/40.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MISION IMPOSIBLE[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/misionimposible.xml</externallink>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/236x/e6/86/06/e68606dd1aa2ca3b2279faa556590b52.jpg</thumbnail>
+<fanart>http://www.missionimpossible1988-1990.com/mi88.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MIS ADORABLES VECINOS[/B]</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white][makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://pics.filmaffinity.com/mis_adorables_vecinos_tv_series-634548652-mmed.jpg</thumbnail>
+        <fanart>https://pbs.twimg.com/media/C9IDGMhXUAAaJtO.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/mis-adorables-vecinos-75988/list,1,3</page> 
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+        <thumbnail>https://pics.filmaffinity.com/mis_adorables_vecinos_tv_series-634548652-mmed.jpg</thumbnail>
+        <fanart>https://pbs.twimg.com/media/C9IDGMhXUAAaJtO.jpg</fanart>
+</item>
+<item>
+<title>[B]MADAM SECRETARY[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/madamsecretary.xml</externallink>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/e6/b7/3f/e6b73faf5267e95ea3244d384eb74f72.jpg</thumbnail>
+<fanart>http://theislandreader.com/wp-content/uploads/2014/08/Madam-Secretary.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B]MOTIVE[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/motive.xml</externallink>
+<thumbnail>http://www.audiovisual451.com/wp-content/uploads/Motive-Key-Art1-202x300.jpg</thumbnail>
+<fanart>http://hdw7.com/wallpapers/296/motive-tv-series-show.jpg</fanart>
+</item>
+
+<item>
+<title>[B]ME LLAMO EARL[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/mellamoearl.xml</externallink>
+<thumbnail>https://pics.filmaffinity.com/my_name_is_earl_tv_series-192915475-large.jpg</thumbnail>
+<fanart>http://www.diariodeunpixel.com/wp-content/uploads/2009/04/my_name_is_earl1.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MR BEAN[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/mrbean.xml</externallink>
+<thumbnail>http://willymovies-18.blogspot.es/cache/media/files/01/298/232/2016/10/mr.bean-1.jpg</thumbnail>
+<fanart>http://images1.fanpop.com/images/photos/1400000/Mr-Bean-mr-bean-1415091-1024-768.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MR ROBOT[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/mrrobot.xml</externallink>
+<thumbnail>https://posterspy.com/wp-content/uploads/2015/09/mr-robot-oficial.jpg</thumbnail>
+<fanart>https://pomowar.files.wordpress.com/2015/10/419.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MOM[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/mom.xml</externallink>
+<thumbnail>http://www.temporadafinal.com/gallery/53cfd257bd0bdmom-dead.jpg</thumbnail>
+<fanart>https://nuestraseriesypelis.files.wordpress.com/2015/08/mom_wall_01_mantenimiento_esp.jpg</fanart>
+</item>
+
+<item>
+<title>[B]MUJERES DESESPERADAS[/B] </title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/mujeresdesesperadas.xml</externallink>
+<thumbnail>http://www.mundodescargas.com/cine/listados/imagenes/covers/2_5380.jpg</thumbnail>
+<fanart>http://www.lasreflexionesdekina.es/wp-content/uploads/2015/12/DHseason8.jpg</fanart>
+</item>

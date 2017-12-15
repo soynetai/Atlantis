@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t1-castellano-70770</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t2-castellano-70779</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t3-castellano-70794</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 4[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t4-castellano-70814</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 5[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t5-castellano-70851</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 6[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t6-castellano-70896</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 7[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t7-castellano-70900</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 8[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t8-castellano-70904</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 9[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t9-castellano-70908</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR white]TEMPORADA 10[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> https://s-media-cache-ak0.pinimg.com/736x/33/53/75/33537552919777715892ec6135857864--miami-vice-movie-posters.jpg
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/friends-t10-castellano-70909</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>

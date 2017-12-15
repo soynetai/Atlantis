@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1 - [/COLOR][COLOR yellow]Opcion 1[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://es.web.img1.acsta.net/pictures/17/03/03/12/22/448554.jpg</thumbnail>
+<fanart>https://i1.wp.com/efectoblooper.com/wp-content/uploads/2017/04/411233-620-282.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/las-chicas-del-cable-68773</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img1.acsta.net/pictures/17/03/03/12/22/448554.jpg</thumbnail>
+<fanart>https://i1.wp.com/efectoblooper.com/wp-content/uploads/2017/04/411233-620-282.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 1 - [/COLOR][COLOR yellow]Opcion 2[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<thumbnail>http://es.web.img1.acsta.net/pictures/17/03/03/12/22/448554.jpg</thumbnail>
+<fanart>https://i1.wp.com/efectoblooper.com/wp-content/uploads/2017/04/411233-620-282.jpg</fanart>	
+<link>http://ignore</link>
+<externallink>https://pastebin.com/raw/CaRtJE8d</externallink>
+</item>

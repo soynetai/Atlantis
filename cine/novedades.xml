@@ -1,0 +1,670 @@
+<!-- 0-9 @# -->
+<!-- A -->
+<item>
+<title>[B][COLOR orange]Altitude[/COLOR][/B]  - Castellano - [COLOR yellow]Valoración: 3,1/10  [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/altitude-374177208-large.jpg</thumbnail>  
+<fanart>https://4.bp.blogspot.com/-0lHBGvcLMKI/WODrkd-9EaI/AAAAAAAAMwA/RMv5A6qYRXIK9YrmhYK5u1aRIjQUfUQGwCLcB/s1600/CAPTURASerror081.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/altitude-2017-80821</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/altitude-374177208-large.jpg</thumbnail>  
+<fanart>https://4.bp.blogspot.com/-0lHBGvcLMKI/WODrkd-9EaI/AAAAAAAAMwA/RMv5A6qYRXIK9YrmhYK5u1aRIjQUfUQGwCLcB/s1600/CAPTURASerror081.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR orange]A todo gas 8[/COLOR][/B]  - Ingles - [COLOR yellow] [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://s3-eu-west-1.amazonaws.com/abandomedia/indie/foto/db_41438_76.jpg</thumbnail>  
+<fanart>http://cdn.20m.es/img2/recortes/2017/03/19/442690-944-465.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/a-todos-gas-8-80992</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://s3-eu-west-1.amazonaws.com/abandomedia/indie/foto/db_41438_76.jpg</thumbnail>  
+<fanart>http://cdn.20m.es/img2/recortes/2017/03/19/442690-944-465.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR orange]A todo gas 8[/COLOR][/B]  - Castellano - [COLOR yellow] Valoración: 7.8/10[/COLOR]</title>
+<link>http://streamcloud.eu/h8bzvtx4rcr1/f4st.8.2017.hdrip.720p.castellano.mp4.html</link>
+<thumbnail>http://s3-eu-west-1.amazonaws.com/abandomedia/indie/foto/db_41438_76.jpg</thumbnail>  
+<fanart>http://cdn.20m.es/img2/recortes/2017/03/19/442690-944-465.jpg</fanart>
+</item>
+
+
+<!-- B -->
+<item>
+<title>[B][COLOR orange]Bella y Bestia[/COLOR][/B]  - Castellano - [COLOR yellow]Valoración: 3,1/10  [/COLOR] [COLOR lime] [HD][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://es.web.img2.acsta.net/c_215_290/pictures/17/01/09/09/56/256507.jpg</thumbnail>  
+<fanart>https://www.ecestaticos.com/imagestatic/clipping/0f4/6d8/0f46d818badf4ffc9dcad7a534a67820/la-bella-y-la-bestia-curiosidades-de-la-pelicula-y-el-famoso-vestido-amarillo.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/bella-y-bestia-2017-la-pelicula-80826</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img2.acsta.net/c_215_290/pictures/17/01/09/09/56/256507.jpg</thumbnail>  
+<fanart>https://www.ecestaticos.com/imagestatic/clipping/0f4/6d8/0f46d818badf4ffc9dcad7a534a67820/la-bella-y-la-bestia-curiosidades-de-la-pelicula-y-el-famoso-vestido-amarillo.jpg</fanart>
+</item>
+<!-- C -->
+
+<item>
+<title>[B][COLOR orange]Colossal[/COLOR][/B]  - [COLOR yellow] Valoración: 6/10 [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://www.lashorasperdidas.com/wp-content/uploads/2017/07/colossal-poster.jpg</thumbnail>  
+<fanart>http://revistamutaciones.com/wp-content/uploads/2017/06/Colossal-2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/collosal-2017-80739</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.lashorasperdidas.com/wp-content/uploads/2017/07/colossal-poster.jpg</thumbnail>  
+<fanart>http://revistamutaciones.com/wp-content/uploads/2017/06/Colossal-2.jpg</fanart>
+</item>
+
+<!-- D -->
+<item>
+<title>[B][COLOR orange]Desnudo [/COLOR][/B]  [COLOR yellow] Valoración: 3,7/10 [COLOR lime][/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://3.bp.blogspot.com/-_pcxqXRCexk/WZWEh0c6bEI/AAAAAAAAZJs/aFmp6FN21S8xUyABVuEN6yW66rL4QHMewCLcBGAs/s1600/naked_pelicula.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/2lTKDEQyxeE/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/desnudo-naked-2017-80819</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://3.bp.blogspot.com/-_pcxqXRCexk/WZWEh0c6bEI/AAAAAAAAZJs/aFmp6FN21S8xUyABVuEN6yW66rL4QHMewCLcBGAs/s1600/naked_pelicula.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/2lTKDEQyxeE/maxresdefault.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR orange]Dragon Heart 4[/COLOR][/B] - Castellano - [COLOR yellow] Valoración: 4,6/10 [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/dragonheart_battle_for_the_heartfire-427159738-large.jpg</thumbnail>  
+<fanart>https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/dragonheart-4-700x300.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/dragon-heart-4-2017-80748</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/dragonheart_battle_for_the_heartfire-427159738-large.jpg</thumbnail>  
+<fanart>https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/dragonheart-4-700x300.jpg</fanart>
+</item>
+<!-- E -->
+<item>
+<title>[B][COLOR orange]El bar[/B][/COLOR][COLOR yellow] Valoración: 6/10 [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/el_bar-629716188-large.jpg</thumbnail>  
+<fanart>http://barfutura.com/wp-content/uploads/2017/03/ELBAR_CARTEL_PERSONAJES_PANORAMICA_web.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/el-bar-2017-80747</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/el_bar-629716188-large.jpg</thumbnail>  
+<fanart>http://barfutura.com/wp-content/uploads/2017/03/ELBAR_CARTEL_PERSONAJES_PANORAMICA_web.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange]El bebe jefazo[/B]  -  [COLOR yellow] [COLOR lime][/COLOR][/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/16/10/18/09/30/315303.jpg</thumbnail>  
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2017/04/05/FE2D672E-3BD7-4605-A0ED-F60AA07B64FD/58.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/el-bebe-jefazo-2017-80820</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/16/10/18/09/30/315303.jpg</thumbnail>  
+<fanart>http://fotografias.antena3.com/clipping/cmsimages01/2017/04/05/FE2D672E-3BD7-4605-A0ED-F60AA07B64FD/58.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange]Es por tu bien[/B]  -  [COLOR yellow] [COLOR lime] [HD][/COLOR][/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/16/12/14/12/19/471849.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/PzarezTFxtQ/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/3s-p0r-tu-b1en-2017-80993</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/16/12/14/12/19/471849.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/PzarezTFxtQ/maxresdefault.jpg</fanart>
+</item>
+
+<!-- F -->
+<!-- G -->
+<!-- H -->
+<!-- I -->
+<!-- J -->
+<!-- K -->
+<item>
+<title>[B][COLOR orange]Kung Fu Yoga[/COLOR][/B] - Castellano - [COLOR yellow] Valoración: 5,3/10 [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://2.bp.blogspot.com/-5OpIlAqgiNw/WN1lBtS1yRI/AAAAAAAAFLY/fHnLa9a-BAYiT3gjDwvy_9qQ86utFcNAQCLcB/s1600/Kung_Fu_Yoga_poster_ingles.jpg</thumbnail>  
+<fanart>http://123movieworld.com/wp-content/uploads/2017/02/Kung-Fu-Yoga-2017.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/kung-fu-yoga-2017-80745</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-5OpIlAqgiNw/WN1lBtS1yRI/AAAAAAAAFLY/fHnLa9a-BAYiT3gjDwvy_9qQ86utFcNAQCLcB/s1600/Kung_Fu_Yoga_poster_ingles.jpg</thumbnail>  
+<fanart>http://123movieworld.com/wp-content/uploads/2017/02/Kung-Fu-Yoga-2017.jpg</fanart>
+</item>
+
+<!-- L -->
+<item>
+<title>[COLOR orange][B]La momia[/B][/COLOR] 2017[COLOR yellow]  Valoración: 4,5/10[/COLOR]</title>
+<link>http://streamcloud.eu/ydnlomch9zs0/th3.mummy.2017.brrs.line.720p.castellano.mp4.html</link>
+<thumbnail>https://2.bp.blogspot.com/-vAiExv0c4JA/WQY8lf7vrGI/AAAAAAAABKw/-fhM50SjlTgpC9n5grscd6aJs0RW5OBjQCLcB/s1600/LA%2BMOMIA.jpg</thumbnail> 
+<fanart>http://www.tororaton.com/wp-content/uploads/2017/01/la-momia-2017.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]Logan[/COLOR][/B]  - Castellano - [COLOR yellow]Valoración: 6,5/10  [/COLOR] [COLOR lime][/COLOR]</title> 
+<link>http://streamcloud.eu/6hxypome763d</link>
+<thumbnail>https://image.tmdb.org/t/p/w200_and_h300_bestv2/3pRgLyNXt5lNeVSnwttwFW8gOdB.jpg</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/w200_and_h300_bestv2/3pRgLyNXt5lNeVSnwttwFW8gOdB.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange]Logan[/COLOR][/B] [OPENLOAD] - Castellano - [COLOR yellow]Valoración: 6,5/10  [/COLOR] [COLOR lime][/COLOR]</title> 
+<urlsolve>https://openload.co/embed/RR6kJ_-iQzQ</urlsolve>
+<thumbnail>https://image.tmdb.org/t/p/w200_and_h300_bestv2/3pRgLyNXt5lNeVSnwttwFW8gOdB.jpg</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/w200_and_h300_bestv2/3pRgLyNXt5lNeVSnwttwFW8gOdB.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]Los pitufos - La aldea desconocida[/COLOR][/B] - Castellano - [COLOR yellow] Valoración: 5,2/10[/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/16/12/15/15/50/303743.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/jlkeR7ocvNw/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/los-pitufos-la-aldea-desconocida-80994</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/16/12/15/15/50/303743.jpg</thumbnail>  
+<fanart>https://i.ytimg.com/vi/jlkeR7ocvNw/maxresdefault.jpg</fanart>
+</item>
+<!-- M -->
+<item>
+<title>[B][COLOR orange]Mañana empieza todo[/COLOR][/B] [COLOR yellow] Castellano [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://agenda.diariovasco.com/media/eventos/0/0/5/5/8/558786_1.jpg</thumbnail>  
+<fanart>http://static.noticiasdenavarra.com/images/2017/03/30/hd-1487858654_12067_1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/manana-empieza-todo-2017-80822</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://agenda.diariovasco.com/media/eventos/0/0/5/5/8/558786_1.jpg</thumbnail>  
+<fanart>http://static.noticiasdenavarra.com/images/2017/03/30/hd-1487858654_12067_1.jpg</fanart>
+</item>
+<!-- N -->
+<!-- Ñ -->
+<!-- O -->
+<!-- P -->
+<!-- Q -->
+<!-- R -->
+<item>
+<title>[B][COLOR orange]Rings [/COLOR][/B]- En Castellano - [COLOR yellow] Valoración: 3,6/10 [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://www.ecartelera.com/carteles/10200/10279/005_p.jpg</thumbnail>  
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2015/01/435768-rings-tercera-pelicula-ring-llegara-3d.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/rings-2017-80746</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.ecartelera.com/carteles/10200/10279/005_p.jpg</thumbnail>  
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2015/01/435768-rings-tercera-pelicula-ring-llegara-3d.jpg</fanart>
+</item>
+<!-- S -->
+<item>
+<title>[B][COLOR orange]Security[/COLOR][/B]- En Castellano - [COLOR yellow] Valoración: 4,8/10[/COLOR] [COLOR blue][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://imagessl5.casadellibro.com/m/ig/5/5701945.jpg</thumbnail>  
+<fanart>https://cineactual.net/fotos/security-header-1080x786.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/security-2017-81085</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imagessl5.casadellibro.com/m/ig/5/5701945.jpg</thumbnail>  
+<fanart>https://cineactual.net/fotos/security-header-1080x786.jpg</fanart>
+</item>
+<!-- T -->
+<item>
+<title>[B][COLOR orange]Trainspotting 2 [/COLOR][/B] [COLOR yellow] Valoración: 6,4/10 [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/t2_trainspotting-853336883-large.jpg</thumbnail>  
+<fanart>http://www.rirca.es/wp-content/uploads/2017/02/T2.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/trainspotting-2-2017-80789</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/t2_trainspotting-853336883-large.jpg</thumbnail>  
+<fanart>http://www.rirca.es/wp-content/uploads/2017/02/T2.png</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange]Transformers - El último caballero.[/B][/COLOR] 2017 [COLOR yellow]Valoracion 6/10[/COLOR]</title>
+<link>http://streamcloud.eu/b1biknp4g2a0/tr4nsform3rs.th3.l4st.kn1ght.2017.hdtv.720p.castellano.mp4.html</link>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/filefield_paths/Transformers-The-Last-Knight-Poster.jpg</thumbnail>
+<fanart>http://www.alfabetajuega.com/abj_public_files/multimedia/imagenes/201608/158787.alfabetajuega-transformers-4-optimus-prime-060816.jpg</fanart>
+</item>
+<!-- U -->
+<!-- V -->
+<!-- W -->
+<item>
+<title>[B][COLOR orange]Wonder Woman[/COLOR][/B] 2017 [COLOR yellow]Valoración: 6,7/10[/COLOR]</title>
+<link>http://streamcloud.eu/hbx8w6kgdjqb/w0nd3r.w0m4n.2017.brrs.720p.castellano.mp4.html</link>
+<thumbnail>https://i.ytimg.com/vi/95a2aqEAbo8/movieposter.jpg</thumbnail>
+<fanart>http://es.web.img3.acsta.net/videothumbnails/16/11/04/13/49/293857.png</fanart>
+</item>
+<!-- X -->
+<item>
+<title>[B][COLOR orange]xXx Reactivado [/COLOR][/B] [COLOR yellow] Valoración: 5/10 [/COLOR] [COLOR lime][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://2.bp.blogspot.com/-biN73cQt3kQ/WIIgISL04OI/AAAAAAAAG5M/8SbkFUJvf-MgPabI6tH7janJFHCyfLW_QCLcB/s1600/poster-1482962489.jpg</thumbnail>  
+<fanart>https://i0.fiuxy.com/5592fffd1db3d7110eca36acfe5485cb700b047c?url=http%3A%2F%2Fwww.uip.com.co%2Fmovie%2FXXX%2FXXX_Top_01.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/xxx-reactivado-80991</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-biN73cQt3kQ/WIIgISL04OI/AAAAAAAAG5M/8SbkFUJvf-MgPabI6tH7janJFHCyfLW_QCLcB/s1600/poster-1482962489.jpg</thumbnail>  
+<fanart>https://i0.fiuxy.com/5592fffd1db3d7110eca36acfe5485cb700b047c?url=http%3A%2F%2Fwww.uip.com.co%2Fmovie%2FXXX%2FXXX_Top_01.jpg</fanart>
+</item>
+<!-- Y -->
+<!-- Z -->

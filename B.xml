@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>BATES MOTEL |TEMPORADAS 1-4</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/batesmotel.xml</externallink>
+<thumbnail>https://i.redd.it/hdkn9m3uy7my.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-kpk1NjghwiQ/UurFOL8AKzI/AAAAAAAARiY/GAIlrPOjugo/s1600/Batess2-2.jpg</fanart>
+</item>
+<item>
+<title>BATTLE CREECK</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/battlecreeck.xml</externallink>
+<thumbnail>https://www.moovielive.com/TvShowPhoto/coverart/2015/2015-07-07/big_season_en_us_2602068.jpeg</thumbnail>
+<fanart>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/06/battle.jpg</fanart>
+</item>
+<item>
+<title>[B]BECKER[/B] TEMPORADAS 1-6</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://cdn-static.sidereel.com/tv_shows/37731/giant_2x/77725-3.jpg</thumbnail>
+<fanart>http://image.tmdb.org/t/p/original/atZbkb2ZVKNknRBKfkudkVyCnzP.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/becker-el-rockero-43518/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cdn-static.sidereel.com/tv_shows/37731/giant_2x/77725-3.jpg</thumbnail>
+<fanart>http://image.tmdb.org/t/p/original/atZbkb2ZVKNknRBKfkudkVyCnzP.jpg</fanart>
+</item>
+<item>
+<title>BELLA Y BESTIA - TEMPORADAS 1-4</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/bellaybestia.xml</externallink>
+<thumbnail>http://1.bp.blogspot.com/--yZfthADPgk/VXUD4ZRjx0I/AAAAAAAAWz0/hykHbIK4Rlg/s320/1.jpg</thumbnail>
+<fanart>http://www.syfy.es/sites/default/files/show/images/bea-pilotgallery101i_-_copia.jpg</fanart>
+</item>
+<item>
+<title>BITTEN | TEMPORADAS 1,2</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/bitten.xml</externallink>
+<thumbnail>http://www.dvdsreleasedates.com/posters/800/B/Bitten-2014-movie-poster.jpg</thumbnail>
+<fanart>http://womenwriteaboutcomics.com/wp-content/uploads/2015/08/Bitten-header-1.jpg</fanart>
+</item>
+<item>
+<title>BILLIONS |TEMPORADAS 1,2</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/billions.xml</externallink>
+<thumbnail>http://lux-stream.co/wp-content/uploads/2017/02/billions-jpg.jpg</thumbnail>
+<fanart>https://3.bp.blogspot.com/-HttpsjERN40/VsBPiGoFMZI/AAAAAAABJ2k/YVJswOyrb8E/s1600/billionsshowtime.jpg</fanart>
+</item>
+<item>
+<title>BONES |SD|</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/bones.xml</externallink>
+<thumbnail>http://cdn.cineworm.com/posters/75682-17.jpg</thumbnail>
+<fanart>http://i.kinja-img.com/gawker-media/image/upload/s--yyqsiBNM--/192hpbxtvhrazjpg.jpg</fanart>
+</item>
+<item>
+<title>BOSCH |TEMPORADAS 1,2|</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/bosch.xml</externallink>
+<thumbnail>http://4.bp.blogspot.com/-T0puK92_Wu8/VOFpzTkrBXI/AAAAAAAAAzo/4UcuzPkRPr4/s1600/serie_Bosch_Amazon.jpg</thumbnail>
+<fanart>http://www.ljudochbild.se/wp-content/uploads/Bosch_BoxArt_01_chr.jpg</fanart>
+</item>
+<item>
+<title>BLACK MIRROR</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/blackmirror.xml</externallink>
+<thumbnail>http://seriesblanco.com/files/uploads/861.jpg</thumbnail>
+<fanart>http://4www.ecestaticos.com/imagestatic/clipping/42d/5b9/42d5b95e3da75d0b3944945ec15dfdb9/trailer-de-la-temporada-3-de-black-mirror-serie-de-netflix.jpg</fanart>
+</item>
+<item>
+<title>BLACK SAILS</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/blacksails.xml</externallink>
+<thumbnail>https://pics.filmaffinity.com/black_sails_tv_series-188674894-large.jpg</thumbnail>
+<fanart>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2014/10/large_black-sails-tv-show.jpg</fanart>
+</item>
+<item>
+<title>BLACK-ISH</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/blackish.xml</externallink>
+<thumbnail>https://pics.filmaffinity.com/black_ish_tv_series-963595267-large.jpg</thumbnail>
+<fanart>https://la.canalsony.com/sites/la.set/files/ct_series_f_primary_image/blackish_y2_keyart_horizontal_textless.jpg</fanart>
+</item>
+<item>
+<title>BRAQUO TEMPORADAS 1-4</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/braquo.xml</externallink>
+<thumbnail>https://pics.filmaffinity.com/braquo_tv_series-305695096-large.jpg</thumbnail>
+<fanart>http://tbivision.com/wp-content/uploads/2012/10/Braquo-090108-2063.jpg</fanart>
+</item>
+<item>
+<title>BRAKING BAD TEMPORADAS 1-5</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/breakingbad.xml</externallink>
+<thumbnail>http://img.moviepostershop.com/breaking-bad-movie-poster-2008-1010752056.jpg</thumbnail>
+<fanart>http://serielizados.com/wp-content/uploads/3258498-breaking-bad-season-five-poster.jpeg</fanart>
+</item>
+
+

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADAS 1 - 4[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Cuspide/heroes-32529/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/heroes-temporada-1-79234</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/heroes-t2-79521</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/heroes-t3-79522</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 4[/COLOR] [COLOR lime][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/heroes-t4-79588</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d9/60/47/d96047310621f8a9ddebe602e9b1898b--heroes-tv-series-dvd-series.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-DUhO71AsheM/UM9_kpFv-JI/AAAAAAACMJc/l0Jo_2M8NPo/s1600/heroes_poster17.jpg</fanart>
+</item>
+

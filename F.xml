@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<title>FAUDA</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/fauda.xml</externallink>
+<thumbnail>https://4.bp.blogspot.com/-T21RMZYN-28/WErNYqeoqSI/AAAAAAAAPkI/xgCwoOZ1Mvsa8lFvP27Js8v6TL4E7EnZwCLcB/s640/e8838cf4d1e12d4e66c9de8b93f48ae659919080.jpg</thumbnail>
+<fanart>http://s.libertaddigital.com/2016/12/16/fauda_serie.jpg</fanart>
+</item>
+<item>
+<title>FARGO</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/fargo.xml</externallink>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/53/de/eb/53deeb0a2d3d32fbaafcdf6cb5c0d4c0.png</thumbnail>
+<fanart>http://3.bp.blogspot.com/-ItqoSVVS9OE/VZvR8q4vjXI/AAAAAAAAAwk/Y5eCAJ_jH2Q/s1600/20-fargo.jpg</fanart>
+</item>
+
+<item>
+<title>[B]FARMACIA DE GUARDIA[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://pics.filmaffinity.com/farmacia_de_guardia_la_ultima_guardia_tv-896228017-large.jpg</thumbnail>
+<fanart>http://estaticos03.elmundo.es/elmundo/imagenes/2009/11/25/1259177056_0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/farmacia-de-guardia-24397/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/farmacia_de_guardia_la_ultima_guardia_tv-896228017-large.jpg</thumbnail>
+<fanart>http://estaticos03.elmundo.es/elmundo/imagenes/2009/11/25/1259177056_0.jpg</fanart>
+</item>
+
+<item>
+<title>FEAR THE WALKING DEAD</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/fearthewalkingdead.xml</externallink>
+<thumbnail>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/06/Fear-the-Walking-Dead.jpg</thumbnail>
+<fanart>http://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/38813.jpg</fanart>
+</item>
+
+<item>
+<title>FRANKLIN Y BASH</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/franklinybash.xml</externallink>
+<thumbnail>https://pics.filmaffinity.com/franklin_bash_tv_series-681569900-large.jpg</thumbnail>
+<fanart>http://i2.wp.com/rumberanetwork105.com/wp-content/uploads/2014/11/franklin-bash08.jpg</fanart>
+</item>
+
+<item>
+<title>FRECUENCY</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/frecuency.xml</externallink>
+<thumbnail>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2016/08/frequency-key-art.jpg</thumbnail>
+<fanart>http://www.postfilm.tv/sites/default/files/gallery/frequency-2016/fBSG5qYwjIpa0L3HqRxosKRaQMO.jpg</fanart>
+</item>
+<item>
+<title>FRIENDS</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/friends.xml</externallink>
+<thumbnail>http://cache2.allpostersimages.com/p/LRG/59/5997/NOOQG00Z/poster/friends.jpg</thumbnail>
+<fanart>https://ae01.alicdn.com/kf/HTB1mwzqPFXXXXXrXXXXq6xXFXXXg/TV-Show-font-b-Friends-b-font-font-b-Poster-b-font-Custom-Canvas-font-b.jpg</fanart>
+</item>
+
+<item>
+<title>FRONTIER (FRONTERA)</title>
+<link>ignorame</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/frontier.xml</externallink>
+<thumbnail>http://es.web.img2.acsta.net/pictures/16/10/31/14/22/545983.jpg</thumbnail>
+<fanart>http://www.universocine.com/wp-content/uploads/2017/02/maxresdefault-735x400.jpg</fanart>
+</item>
+
+
+
+

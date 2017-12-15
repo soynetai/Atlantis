@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+<item>
+<item>
+<title>[B]12 MONOS -[COLOR gold] TEMPORADAS 1-2[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>http://www.formulatv.com/images/series/posters/900/929/1_m3.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/12monostemps.xml</externallink>
+</item>
+<item>
+	
+<item>
+<title>[B]24 HORAS -[COLOR gold] TEMPORADAS 1-9[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://allseriesmag.files.wordpress.com/2010/01/twenty_four_ver12_xlg.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/24horastemps.xml</externallink>
+</item>
+<item>
+	
+<item>
+<title>[B]24 LEGACY -[COLOR gold] TEMPORADA 1[/COLOR][/B]</title>
+<fanart></fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/w7BepS3t5g84AACkdmRaGqq5fO6.jpg</thumbnail>                      
+<link>http://ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/24legacytemps.xml</externallink>
+</item>
+<item>
+
+<title>[B]  7 VIDAS | [COLOR gold] TODAS LAS TEMPORADAS [/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>https://pics.filmaffinity.com/7_vidas_siete_vidas_tv_series-745593256-large.jpg</thumbnail>
+		<fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lokario1/7-vidas-siete-vidas-completa-11882/list,1,9</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lokario1/7-vidas-siete-vidas-completa-11882/list,1,9</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/7_vidas_siete_vidas_tv_series-745593256-large.jpg</thumbnail>
+<fanart></fanart>
+</item>
+</items>

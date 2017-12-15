@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TODA LA SERIE[/COLOR][COLOR blue][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYmU1NDZhNmItZjY3MS00Yjg5LTk1OGQtYWY2ZDI1ODZlMmNkXkEyXkFqcGdeQXVyMTcxNTYyMjM@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
+<fanart>http://mqltv.com/wp-content/uploads/2015/09/esa-no-soy-yo.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/FLAYSINA/esa-no-soy-yo-completa-40486/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYmU1NDZhNmItZjY3MS00Yjg5LTk1OGQtYWY2ZDI1ODZlMmNkXkEyXkFqcGdeQXVyMTcxNTYyMjM@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
+<fanart>http://mqltv.com/wp-content/uploads/2015/09/esa-no-soy-yo.jpg</fanart>
+</item>

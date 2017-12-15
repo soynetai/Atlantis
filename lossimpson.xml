@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B]|TODOS LOS CAPITULOS|[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://image.tmdb.org/t/p/w396/yTZQkSsxUFJZJe67IenRM0AEklc.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/-_4vsNhdMBI4/AAAAAAAAAAI/AAAAAAAAAAA/h20nWPBUV20/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/yokesesss/los-simpson-serie-completa-49543/list,1,23</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image.tmdb.org/t/p/w396/yTZQkSsxUFJZJe67IenRM0AEklc.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/-_4vsNhdMBI4/AAAAAAAAAAI/AAAAAAAAAAA/h20nWPBUV20/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</fanart>
+</item>

@@ -1,0 +1,113 @@
+<item>
+<title>[B]BOB ESPONJA - Capitulos sueltos[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.formulatv.com/images/series/posters/300/375/1_m3.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-KuJGyakvoBU/Ue3s3MnCKAI/AAAAAAAAGbY/8hE4YUPXvsY/s1600/Spongebob06.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jml/bob-esponja-25429/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+		<thumbnail>http://www.formulatv.com/images/series/posters/300/375/1_m3.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-KuJGyakvoBU/Ue3s3MnCKAI/AAAAAAAAGbY/8hE4YUPXvsY/s1600/Spongebob06.jpg</fanart>
+</item>
+
+<item>
+<title>[B]BOB ESPONJA - T1[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.formulatv.com/images/series/posters/300/375/1_m3.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-KuJGyakvoBU/Ue3s3MnCKAI/AAAAAAAAGbY/8hE4YUPXvsY/s1600/Spongebob06.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/bob-esponja-t1-castellano-73574</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+		<thumbnail>http://www.formulatv.com/images/series/posters/300/375/1_m3.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-KuJGyakvoBU/Ue3s3MnCKAI/AAAAAAAAGbY/8hE4YUPXvsY/s1600/Spongebob06.jpg</fanart>
+</item>
+
+<item>
+<title>[B]BOB ESPONJA - T2[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://www.formulatv.com/images/series/posters/300/375/1_m3.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-KuJGyakvoBU/Ue3s3MnCKAI/AAAAAAAAGbY/8hE4YUPXvsY/s1600/Spongebob06.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/gemma-valencia/bob-esponja-t2-castellano-73666</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+		<thumbnail>http://www.formulatv.com/images/series/posters/300/375/1_m3.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-KuJGyakvoBU/Ue3s3MnCKAI/AAAAAAAAGbY/8hE4YUPXvsY/s1600/Spongebob06.jpg</fanart>
+</item>

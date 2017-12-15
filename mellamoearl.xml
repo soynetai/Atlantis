@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1 - [/COLOR][COLOR yellow]Opcion 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/me-llamo-earl-t1-46722</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 2 - [/COLOR][COLOR yellow]Opcion 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/me-llamo-earl-t2-46725</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 3 - [/COLOR][COLOR yellow]Opcion 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/me-llamo-earl-t3-46726</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+</item>
+<item>
+<title>[B][COLOR white]TEMPORADA 4 - [/COLOR][COLOR yellow]Opcion 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/me-llamo-earl-t4-46728</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://papystreaming.com/es/files/2013/01/Modern_Family_Serie_de_TV-503250874-large.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-WNwpLBk4KsU/Ur2hP0Eaj8I/AAAAAAAAE9w/-icZgjRxTFo/s1600/modern-family.jpg</fanart>
+</item>

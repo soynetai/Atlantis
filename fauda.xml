@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TEMPORADA 1[/COLOR] [COLOR lime][HD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://4.bp.blogspot.com/-T21RMZYN-28/WErNYqeoqSI/AAAAAAAAPkI/xgCwoOZ1Mvsa8lFvP27Js8v6TL4E7EnZwCLcB/s640/e8838cf4d1e12d4e66c9de8b93f48ae659919080.jpg</thumbnail>
+<fanart>http://s.libertaddigital.com/2016/12/16/fauda_serie.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/fauda-t1-45401</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://4.bp.blogspot.com/-T21RMZYN-28/WErNYqeoqSI/AAAAAAAAPkI/xgCwoOZ1Mvsa8lFvP27Js8v6TL4E7EnZwCLcB/s640/e8838cf4d1e12d4e66c9de8b93f48ae659919080.jpg</thumbnail>
+<fanart>http://s.libertaddigital.com/2016/12/16/fauda_serie.jpg</fanart>
+</item>

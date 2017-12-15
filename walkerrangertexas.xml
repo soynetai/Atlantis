@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<item>
+<title>[B][COLOR white]TODA LA SERIE[/COLOR] TEMPORADAS 1,9[COLOR blue][SD][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/e1/ba/18/e1ba18c7c309cdef534a5c7a29c61cf9.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-P0C76fvbE6Q/WB_dXexf_7I/AAAAAAAABAw/QoYc1on19PEukvZBn-h82VUMlxr0xtOvQCLcB/s1600/walker-texas-ranger-large-poster-950.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/walker-texas-ranger-76241/gallery,1,9</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/e1/ba/18/e1ba18c7c309cdef534a5c7a29c61cf9.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-P0C76fvbE6Q/WB_dXexf_7I/AAAAAAAABAw/QoYc1on19PEukvZBn-h82VUMlxr0xtOvQCLcB/s1600/walker-texas-ranger-large-poster-950.jpg</fanart>
+</item>
